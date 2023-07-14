@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <title>my portfolio</title>
+        <link rel="icon" href="./image/coder.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css"  href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+        <body>
+            <div class="hero">
+                <nav>
+                    <img src="./image/mylogo.png" class="logo">
+                    <ul>
+                        <li><a href="#hero">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#skills">SKILLS</a></li>
+                        <li><a href="#last">CONTACT</a></li>
+                    </ul>
+                    <img src="./image/moon.png" id="icon">
+                </nav>
+                <div class="info">
+                    <h1>I<span1>'</span1>m <span>Subramanyam</span> Panda</h1>
+                    <h3>Frontend <span2>Developer</span2></h3>
+                    <p>I invite you to explore my official portfolio website, a window into my world of creativity, design, and development.</p>
+                    <br>
+                    <button type="button" onclick="location.href='https://drive.google.com/file/d/1AFAD59-e8MibtwsuT1UzRvRcdbO5M3qx/view?usp=share_link '">
+                        DOWNLOAD RESUME
+                        </button>
+               </div> 
+               <script>
+                var icon = document.getElementById("icon");
+        
+                icon.onclick  = function() 
+                {
+                    document.body.classList.toggle("dark-theme");
+                    if(document.body.classList.contains("dark-theme"))
+                    {
+                       icon.src="./image/sun.png";
+                    }else{
+                        icon.src="./image/moon.png";
+                    }
+                }
+                 
+               </script>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+<!--ABOUT-->
+<section id="about">
+    <div class="main">
+    <img src="./image/me.png" class="me">
+    <div class="about-text">
+        <h1>ABOUT <span3>-</span3><span4> ME </span4></h1>
+        <h5>An ambitious individual at the age of 20, possessing good programming 
+            skills and an insatiable thirst for learning, has emerged. With a solid 
+            foundation of programming skills, he has embarked on a journey to enhance 
+            his abilities and expand his knowledge in the field. His determination and 
+            dedication drive him to continuously improve, seeking out new challenges and 
+            opportunities for growth. With his passion and commitment, I am poised to 
+            excel in the world of programming and make a positive impact through his skills.</h5>
+    </div>
+    </div>   
+<!---skills-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="skills" id="skills">
+    <h1><span5>MY </span5> SKILLS</h1>
+    <br>
+    <br>
+    <br>
+    <div class="skill">
+        <div class="skill-name">HTML</div>  
+        <div class="skill-bar">
+            <div class="skill-per" per="84%" style="max-width: 84%;"></div>
+        </div> 
+     </div>
+     <div class="skill">
+        <div class="skill-name">CSS</div>  
+        <div class="skill-bar">
+            <div class="skill-per" per="87%" style="max-width: 87%;"></div>
+        </div> 
+     </div>
+     <div class="skill">
+        <div class="skill-name">JS</div>  
+        <div class="skill-bar">
+            <div class="skill-per" per="9%" style="max-width: 9%;"></div>
+        </div> 
+     </div>
+     <div class="skill">
+        <div class="skill-name">C</div>  
+        <div class="skill-bar">
+            <div class="skill-per" per="27%" style="max-width: 27%;"></div>
+        </div> 
+     </div>
+     <div class="skill">
+        <div class="skill-name">JAVA</div>  
+        <div class="skill-bar">
+            <div class="skill-per" per="57%" style="max-width: 57%;"></div>
+            <div class="skill">
+                <div class="skill-name">SQL</div>  
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                </div> 
+             </div>
+        </div> 
+     </div>
+</section>
+<section class="hire">
+    <button class="hireme" type="button" onclick="location.href='mailto:chimtu17@gmail.com'">
+        HIRE ME 
+        </button>
+        <button class="certificate" type="button" onclick="location.href='https://drive.google.com/drive/folders/1398hyj52zl5qbR5U1jo-1bnL-n_L1j2_?usp=sharing'">
+            Certificate Gallery
+            </button>
+            <button class="badges" type="button" onclick="location.href='https://www.credly.com/users/subramanyam-panda'">
+                Verified Badge
+                </button>
+        </section>
+<!--contact--->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="https://formspree.io/f/maygyavb" method="POST">
+<div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+            <h2>LET'S TALK</h2>
+            <input type="text" class="field" name="Name" placeholder="Name*" autocomplete="off" required>
+            <input type="text" class="field" name="Purpose" placeholder="Enter Your Purpose*" autocomplete="off" required>
+            <input type="text" class="field" name="Email id" placeholder="Your Email id*" autocomplete="off" required>
+            <input type="text" class="field" name="Phone no." placeholder="Your Phone Number" autocomplete="off">
+            <textarea class="fieldd" name="Message" rows="6" cols="60" placeholder="Enter Your Message*" autocomplete="off" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+    </div>
+</form>
+  <!--Footer start-->
+  <footer class="last" id="last">
+    <p>If you would like to get in touch or collaborate, I would love to hear from you !! <span6>Feel free to reach out to me through the following channels... </span6>  </p>
+    <br>
+    <br>
+    <br>
+    <div class="social">         
+            <a href= "https://www.linkedin.com/in/subramanyam-panda-441409218 " target="_blank">
+                <i class="fa-brands fa-linkedin"> </i>
+            </a>
+            <a href="mailto:chimtu17@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://instagram.com/subhu_?igshid=ZGUzMzM3NWJiOQ==" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/subramanyam.panda?mibextid=ZbWKwL" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://github.com/chimtu222" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="end">©CopyRight By Subramanyam Panda</p>
+    </footer>
+
+</section>
+</section>
+<section>
+    <a class="goto" href="#"><i class="fa-solid fa-house-chimney"></i></a>
+</section>
+    </body>
+</html>
